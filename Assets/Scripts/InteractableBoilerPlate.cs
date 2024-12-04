@@ -24,7 +24,7 @@ public class InteractableBoilerPlate : MonoBehaviour, EventClickInterface, Event
     public void InteractButton()
     {
         //rotates self
-        gameObject.transform.Rotate(new Vector3(0,0,90));
+        //gameObject.transform.Rotate(new Vector3(0,0,90));
         Debug.Log("Interactable");
     }
 
